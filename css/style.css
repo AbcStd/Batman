@@ -248,16 +248,17 @@
     line-height: 140%;
     padding: 28px 0 18px;
 }
-.subscribe-form {
-    display: flex;
-    margin-bottom: 48px;
-}
+
 .subscribe-title {
     margin:0 0 14px;
     font-weight: 900;
     font-size: 16px;
     line-height: 150%;
     color: #000000;
+}
+.subscribe-form {
+    display: flex;
+    margin-bottom: 48px;
 }
 .subscribe-input {
     background: rgba(241, 241, 241, 0.5);
@@ -364,5 +365,9 @@
     }
     .button {
         width: 100%;
+    }
+    .subscribe {
+        margin: auto;
     }      
 }
+
